@@ -1,0 +1,53 @@
+h1 { 
+    font-family:'Open Sans',sans-serif;
+    font-size: 3.75rem;
+    font-weight: 300;
+}
+h2 {
+    font-family:'Open Sans',sans-serif;
+    font-size: 3.75rem;
+    font-weight: 300;
+    }
+
+h3 {
+   font-family:'Open Sans',sans-serif;
+   font-size: 2.0625rem;
+   font-weight: 300;
+   }
+p {
+    font-family:'Open Sans',sans-serif;
+    font-size: 1.125rem; 
+    font-weight: 400;
+}
+.nitro {
+    font-family:'Open Sans',sans-serif;
+    font-size: 1.125rem; 
+    font-weight: 400;
+   }
+
+button {
+    font-family:'Open Sans',sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    background-color: #5BACC3;
+    color: #FFF;
+    border: none;
+}
+.discount {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 2.8125rem;
+    font-weight: 400;
+    color: white;
+    background-color:#393939;
+    width: 90%;
+    text-align: center;
+}
+span { 
+    font-weight: 700;
+}
+.price {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.125rem;
+    color:#5BACC3;
+    font-weight: 400;
+}
