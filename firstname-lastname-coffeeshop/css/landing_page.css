@@ -1,37 +1,79 @@
 h1 { 
-    
+    padding-left: 2%;
     font-size: 3.75rem;
     font-weight: 300;
+    background-color: #FFF0ED;
 }
 h2 {
-    font-family:'Open Sans',sans-serif;
+    text-align: center;
     font-size: 3.75rem;
     font-weight: 300;
     }
 
 h3 {
-   font-family:'Open Sans',sans-serif;
+   
    font-size: 2.0625rem;
    font-weight: 300;
    }
+   .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF0ED;
+  }
+  
+  .content p {
+    padding-left: 5%;
+    padding-right: 50%;
+    text-align: left;
+    line-height: 1.6; /* Melhora o espaçamento entre linhas */
+    
+  
+        }
+  
+  .content img {
+    max-width: 27.75rem; /* Define largura máxima da imagem */
+    height: 500px; 
+    padding-right: 10%;
+  }
+.content a{
+   flex-direction: row;
+   justify-content: flex-start;
+
+}
+.products{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.products h3{
+    text-align: center;
+}
+
+
+  
 p {
-   
+    text-align: left;
     font-size: 1.125rem; 
     font-weight: 400;
+    border: 10px;
 }
 .nitro {
     
     font-size: 1.125rem; 
     font-weight: 400;
+    
    }
 
-button {
-    
+.button {
+   
     font-size: 1.3125rem;
     font-weight: 400;
     background-color: #5BACC3;
     color: #FFF;
-    border: none;
+ 
+  
+  
 }
 .discount {
     
@@ -46,8 +88,14 @@ span {
     font-weight: 700;
 }
 .price {
-   
+   text-align: center;
     font-size: 1.125rem;
     color:#5BACC3;
     font-weight: 400;
+}
+footer {
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+
 }
