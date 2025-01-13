@@ -1,35 +1,52 @@
-h1 { 
+h1{
     padding-left: 2%;
     font-size: 3.75rem;
     font-weight: 300;
     background-color: #FFF0ED;
 }
-h2 {
-    text-align: center;
-    font-size: 3.75rem;
-    font-weight: 300;
-    }
-
-h3 {
-   
-   font-size: 2.0625rem;
-   font-weight: 300;
-   }
-   .content {
+  .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFF0ED;
+    padding: 32px;
+    background-color:  #FFF0ED;
   }
-  
-  .content p {
-    padding-left: 5%;
-    padding-right: 50%;
+  .header__logo {
+    display: flex;
+    align-items: center;
+  }
+  .header__logo img {
+    width: 2.5rem;
+    margin-right: 0.5rem;
+  }
+  .hero__content{
+    margin: auto;
+
+  }
+  .coffee_bag{
+    margin-right: 6%;
+  }
+   
+  .hero__title {
+    font-size: 4.5rem;
+    color: #333;
+    font-weight: 300;
+  }
+  .hero_description {
     text-align: left;
+    font-size: 1.125rem; 
+    border: 0.625rem;
+    margin: 1rem 34rem 3rem 1rem;
     line-height: 1.6; /* Melhora o espaçamento entre linhas */
-    
+  }
+
   
-        }
+    .content{
+        display: flex;
+        background-color:#FFF0ED;
+}
+   
+
   
   .content img {
     max-width: 27.75rem; /* Define largura máxima da imagem */
@@ -41,49 +58,65 @@ h3 {
    justify-content: flex-start;
 
 }
-.products{ 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.products h3{
-    text-align: center;
-}
-
-
-  
-p {
-    text-align: left;
-    font-size: 1.125rem; 
-    font-weight: 400;
-    border: 10px;
-}
-.nitro {
-    
-    font-size: 1.125rem; 
-    font-weight: 400;
-    
-   }
-
-.button {
+.button_shopNow {
    
     font-size: 1.3125rem;
     font-weight: 400;
     background-color: #5BACC3;
     color: #FFF;
- 
-  
-  
+    padding: 1.5% 3%;
 }
-.discount {
+
+.products{
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #f8fbfc;
+
+    }
+    .products_title{
+     font-family:  'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
     
+    .product{
+    background: #fff;
+    border-radius: 0.625rem;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 18.75rem;
+    }
+.products_itens{
+  display: flex;
+  justify-content:space-around;
+  margin: auto;
+  justify-content:space-evenly;
+  gap: 1.5rem;
+    }
+.VIEWALL{
+  padding: 0.75rem 1.5rem;
+  margin-top: 1.875rem;
+  font-size: 1rem;
+  background-color: #5bacc3;
+  color: #fff;
+  border: none;
+}
+.container_discount{
+    display: flex;
+    height:50vh;
+  }
+.discount {
+   
     font-size: 2.8125rem;
     font-weight: 400;
     color: white;
     background-color:#393939;
     width: 90%;
     text-align: center;
-}
+    margin: auto;
+  }
 span { 
     font-weight: 700;
 }
@@ -94,8 +127,18 @@ span {
     font-weight: 400;
 }
 footer {
-display: flex;
-justify-content: space-evenly;
-flex-direction: row;
-
+    display: flex;
+    background-color: #FFF0ED;
+    height: 30vh;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+.Address{
+justify-content: center;
 }
+
+  
+   
+
+  
+  
